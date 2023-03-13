@@ -1,11 +1,12 @@
 import subprocess,os
 
 
-os.system("cd DATABASE")
+#os.system("cd DATABASE")
 path = os.getcwd()
-mylist = os.listdir(path)
+mylist = os.listdir(path+"\DATABASE")
 print(path)
-str="\n".join(mylist)
+str=("\n"+path+"\DATABASE\\").join(mylist)
+str=path+"\DATABASE\\"+str
 #open text file
 imgpath=path+"\mpeg7fex_win32_v2\pimgtet.txt"
 print(imgpath)
