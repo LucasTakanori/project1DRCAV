@@ -1,0 +1,3 @@
+images/Ordekler.jpg
+D:\research\code\sandbox\MPEG7Fex\images\ari-cicek2.jpg
+D:\research\code\sandbox\MPEG7Fex\images\agustos_bocegi.jpg
