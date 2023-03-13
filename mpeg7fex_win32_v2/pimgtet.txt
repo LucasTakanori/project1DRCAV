@@ -1,0 +1,6 @@
+.git
+.gitattributes
+DATABASE
+mpeg7fex_win32_v2
+README.md
+test.py
