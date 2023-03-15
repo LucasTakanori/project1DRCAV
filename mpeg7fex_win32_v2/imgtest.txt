@@ -1,3 +1,4 @@
-C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\DATABASE\agustos_bocegi.jpg
-C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\DATABASE\ari-cicek2.jpg
-C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\DATABASE\Ordekler.jpg
+C:\Users\Tiet\Documents\github\project1DRCAV\DATABASE\agustos_bocegi.jpg
+C:\Users\Tiet\Documents\github\project1DRCAV\DATABASE\ari-cicek2.jpg
+C:\Users\Tiet\Documents\github\project1DRCAV\DATABASE\flowers
+C:\Users\Tiet\Documents\github\project1DRCAV\DATABASE\Ordekler.jpg
