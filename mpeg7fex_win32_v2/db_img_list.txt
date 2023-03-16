@@ -106,6 +106,3 @@ C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\DATABASE\flowers\tulips\3
 C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\DATABASE\flowers\tulips\4550117239_5907aaba4c.jpg
 C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\DATABASE\flowers\tulips\4550278535_dfdf7b74ef.jpg
 C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\DATABASE\flowers\tulips\5208680166_c4372477ef_n.jpg
-C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\mpeg7fex_win32_v2\images\agustos_bocegi.jpg
-C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\mpeg7fex_win32_v2\images\ari-cicek2.jpg
-C:\Users\Lucas Takanori\Documents\GitHub\project1DRCAV\mpeg7fex_win32_v2\images\Ordekler.jpg
