@@ -2,6 +2,7 @@ import subprocess
 import os
 import os
 
+from PIL import Image
 dbimglist = "db_img_list.txt"
 mpegpth = "\mpeg7fex_win32_v2"
 db = "\DATABASE"
@@ -11,6 +12,8 @@ featureType = "CSD"
 featureParameters = 64
 querypth = "\QUERY"
 qrylist = "query_list.txt"
+
+
 def find_images(folder_path, output_file):
     with open(output_file, "w") as f:
         for dirpath, dirnames, filenames in os.walk(folder_path):
@@ -64,19 +67,31 @@ def find_similar_images(database_file, query_file):
                 diffs[name] = diff
             # sort the images in the database by difference and retrieve the 10 most similar
             sorted_diffs = sorted(diffs.items(), key=lambda x: x[1])
-            results[query_name] = [name for name,diff in sorted_diffs[:10]]
+            results[query_name] = [name for name,diff in sorted_diffs[:5]]
     
     return results
 
 
 path = os.getcwd()
-calculate_Descriptor(path, mpegpth, db, featureType,
-                     featureParameters, dbimglist, outputDescriptorDb)
+calculate_Descriptor(path, mpegpth, db, featureType, featureParameters, dbimglist, outputDescriptorDb)
 
-calculate_Descriptor(path, mpegpth, querypth, featureType,
-                     featureParameters, qrylist, outputDescriptorQry)
+calculate_Descriptor(path, mpegpth, querypth, featureType, featureParameters, qrylist, outputDescriptorQry)
 
 #image_data = read_csd_file(path+mpegpth+'\CSDDB.txt')
 
 results = find_similar_images(path+mpegpth+'\CSDDB.txt',path+mpegpth+'\CSDqry.txt')
+
 print(results)
+print(len(results))
+
+x = results.items()
+arr=list(x)
+#print(arr)
+
+# Open the image file
+
+""" for i in range(len(arr)):
+    img = Image.open(path+querypth+"\\"+arr[i][0])
+     # Display the image
+    img.show() """
+    
